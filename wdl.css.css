@@ -1,0 +1,128 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 200px;
+    box-shadow: 2px 1px 2px #eee;
+    align-items: center;
+    background-color: #fff;
+}
+
+.navbar img {
+    height: 18px;
+    cursor: pointer;
+
+}
+
+.nav-menu {
+    display: flex;
+}
+
+.nav-menu div {
+    padding: 20px;
+    color: #666;
+    cursor: pointer;
+}
+
+.nav-menu div:hover {
+    color: #000;
+}
+
+.landing-section {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.landing-section img {
+    width: 100%;
+    max-width: 750px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.content h1 {
+    font-weight: 400;
+    font-size: 40px;
+    margin: 0;
+}
+
+.content h3 {
+    font-weight: 750;
+    color: #666;
+    margin: 10px 0;
+}
+
+.signup-btn {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.signup-btn div {
+    background-color: #387ed1;
+    color: #eee;
+    border-radius: 3px;
+    font-size: 20px;
+    padding: 10px 30px;
+    cursor: pointer;
+}
+
+.signup-btn div:hover {
+    background-color: #306bb3;
+}
+
+
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 200px;
+    background-color: #387ed1;
+    color: #eee;
+}
+
+.footer-section {
+    flex: 1;
+    padding: 20px;
+}
+
+.footer-section h4 {
+    margin-bottom: 10px;
+}
+
+.footer-section p {
+    margin: 5px 0;
+}
+
+.footer-section a {
+    color: #eee;
+    text-decoration: none;
+}
+
+.footer-section a:hover {
+    text-decoration: underline;
+}
+
+.footer-section p:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.footer-section i {
+    margin-right: 8px;
+}
